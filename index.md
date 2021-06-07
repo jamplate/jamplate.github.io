@@ -1,16 +1,37 @@
-# Overview
+---
+layout: default
+
+links:
+    Gradle: https://github.com/jamplate/gradle
+    Source: https://github.com/jamplate/processor
+    Guide: guide
+    GitHub: https://github.com/jamplate
+    Author: https://github.com/LSafer
+
+repositories:
+  - processor:
+    owner: jamplate
+    name: processor
+  - gradle:
+    owner: jamplate
+    name: gradle
+  - Webpage:
+    owner: jamplate
+    name: jamplate.github.io
+---
+
+## Overview
 Jamplate is a C-Style pre-processor. Although it is a C-Style, this does not mean it is
 following the C standard. This pre-processor has almost the same expected behaviour as a
 standard C pre-processors with some features added and some missing.
-You can read the guides at [Guide](guide)
 
+<br>
 
-# Examples
+## Examples
 
+The following is an example file written in `jamplate` that generates 4 different files:
 
-- The following is an example file written in `jamplate` that geneartes 4 different files:
-
-	```c++
+<pre class="prettyprint">
 	#for output ['firstfile', 'secondfile', 'thirdfile', 'forthfile']
 	#console __OUTPUT__ '/' output '.txt'
 	#include __PROJECT__ '/myheader.jh'
@@ -35,15 +56,15 @@ You can read the guides at [Guide](guide)
 	Processor #{__JAMPLATE__}#" and this paragraph starts 
 	at line #{line}#.
 	#endfor
-	```
+</pre>
 
+<br>
 
-# Usage
+## Usage
 
+To apply the jamplate gradle plugin using jitpack:
 
-- To apply the jamplate gradle plugin using jitpack:
-
-	```gradle
+<pre class="prettyprint">
 	apply plugin: 'java'
 	apply plugin: 'jamplate'
 
@@ -59,15 +80,15 @@ You can read the guides at [Guide](guide)
 			classpath 'org.jamplate:gradle:TAG'
 		}
 	}
-	```
+</pre>
 
+<br>
 
-# Implementation
+## Implementation
 
+To implement the jamplate processor using jitpack:
 
-- To implement the jamplate processor using jitpack:
-
-	```gradle
+<pre class="prettyprint">
 	repositories {
 		maven { url 'https://jitpack.io' }
 	}
@@ -76,12 +97,11 @@ You can read the guides at [Guide](guide)
 		//replace `Tag` with the targeted version.
 		implementation 'org.jamplate:processor:Tag'
 	}
-	```
+</pre>
 
+To implement the jamplate gradle plugin using jitpack:
 
-- To implement the jamplate gradle plugin using jitpack:
-
-	```gradle
+<pre class="prettyprint">
 	repositories {
 		maven { url 'https://jitpack.io' }
 	}
@@ -90,38 +110,4 @@ You can read the guides at [Guide](guide)
 		//replace `Tag` with the targeted version.
 		implementation 'org.jamplate:gradle:Tag'
 	}
-	```
-
-
-# Repositories
-
-
-- ### The Processor:
-
-	[![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=jamplate&repo=processor&show_owner=1)](https://github.com/jamplate/processor)
-
-
-- ### The Gradle Plugin:
-
-	[![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=jamplate&repo=gradle&show_owner=1)](https://github.com/jamplate/gradle)
-
-- ### The Website:
-
-	[![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=jamplate&repo=jamplate.github.io&show_owner=1)](https://github.com/jamplate/jamplate.github.io)
-
-
-### Licence
-
-    Copyright 2021 Cufy
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+</pre>

@@ -1,15 +1,28 @@
-theme: jekyll-theme-slate
+
 title: Jamplate
-description: C-Style moderen pre-processor
+email: jamplate@cufy.org
+description: >- # this means to ignore newlines until "baseurl:"
+  Jamplate is a C-Style pre-processor. Although it is a C-Style, this does not mean it is
+  following the C standard. This pre-processor has almost the same expected behaviour as a
+  standard C pre-processors with some features added and some missing.
 
-author: LSafer
-organization-name: Cufy
-organization-link: cufy.org
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: Jamplate
 
-footer_content: Copyrights 2020-2021 Cufy
+markdown: kramdown
 
-gh_edit_link: false
-
+defaults:
+  - scope:
+      path: ""
+    values:
+      favicon: '/assets/logo/cufy.ico'
+      title: 'Jamplate'
 
 github:
-  is_project_page: false
+    owner_name: Cufy
+    owner_url: https://cufy.org
+
+emails:
+  cmail: jamplate@cufy.org
+  gmail: cufyorg@gmail.com
