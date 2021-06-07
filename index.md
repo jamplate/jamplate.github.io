@@ -29,8 +29,10 @@ standard C pre-processors with some features added and some missing.
 	#endif
 
 	#declare line __LINE__ + 1
-	This file was auto generated from the file #{__FILE__}# on #{__DATE__}# at #{__TIME__}#
-	using "Jamplate Processor #{__JAMPLATE__}#" and this paragraph starts at line #{line}#.
+	This file was auto generated from the file #{__FILE__}# 
+	on #{__DATE__}# at #{__TIME__}# using "Jamplate 
+	Processor #{__JAMPLATE__}#" and this paragraph starts 
+	at line #{line}#.
 	#endfor
 	```
 
@@ -93,15 +95,15 @@ standard C pre-processors with some features added and some missing.
 # Repositories
 
 
-- The Processor
+- ### The Processor:
 
-[![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=jamplate&repo=processor&show_owner=1)](https://github.com/jamplate/processor)
+	[![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=jamplate&repo=processor&show_owner=1)](https://github.com/jamplate/processor)
 
 
-- The Gradle Plugin
+- ### The Gradle Plugin:
 
-[![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=jamplate&repo=gradle&show_owner=1)](https://github.com/jamplate/gradle)
+	[![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=jamplate&repo=gradle&show_owner=1)](https://github.com/jamplate/gradle)
 
-- The Website
+- ### The Website:
 
-[![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=jamplate&repo=jamplate.github.io&show_owner=1)](https://github.com/jamplate/jamplate.github.io)
+	[![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=jamplate&repo=jamplate.github.io&show_owner=1)](https://github.com/jamplate/jamplate.github.io)
