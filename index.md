@@ -99,7 +99,9 @@ standard C pre-processors with some features added and some missing.
 
 
 - The Gradle Plugin
+
 [![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=jamplate&repo=gradle&show_owner=1)](https://github.com/jamplate/gradle)
 
 - The Website
+
 [![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=jamplate&repo=jamplate.github.io&show_owner=1)](https://github.com/jamplate/jamplate.github.io)
