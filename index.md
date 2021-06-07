@@ -3,9 +3,12 @@ Jamplate is a C-Style pre-processor. Although it is a C-Style, this does not mea
 following the C standard. This pre-processor has almost the same expected behaviour as a
 standard C pre-processors with some features added and some missing.
 
+
 # Examples
 
+
 - The following is an example file written in `jamplate` that geneartes 4 different files:
+
 	```c++
 	#for output ['firstfile', 'secondfile', 'thirdfile', 'forthfile']
 	#console __OUTPUT__ '/' output '.txt'
@@ -31,9 +34,12 @@ standard C pre-processors with some features added and some missing.
 	#endfor
 	```
 
+
 # Usage
 
+
 - To apply the jamplate gradle plugin using jitpack:
+
 	```gradle
 	apply plugin: 'java'
 	apply plugin: 'jamplate'
@@ -52,9 +58,12 @@ standard C pre-processors with some features added and some missing.
 	}
 	```
 
+
 # Implementation
 
+
 - To implement the jamplate processor using jitpack:
+
 	```gradle
 	repositories {
 		maven { url 'https://jitpack.io' }
@@ -66,7 +75,9 @@ standard C pre-processors with some features added and some missing.
 	}
 	```
 
+
 - To implement the jamplate gradle plugin using jitpack:
+
 	```gradle
 	repositories {
 		maven { url 'https://jitpack.io' }
@@ -78,8 +89,17 @@ standard C pre-processors with some features added and some missing.
 	}
 	```
 
-# Repositories
-[![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=jamplate&repo=processor&show_owner=1)](https://github.com/jamplate/processor)
-[![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=jamplate&repo=gradle&show_owner=1)](https://github.com/jamplate/gradle)
-[![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=jamplate&repo=jamplate.github.io&show_owner=1)](https://github.com/jamplate/jamplate.github.io)
 
+# Repositories
+
+
+- The Processor
+
+[![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=jamplate&repo=processor&show_owner=1)](https://github.com/jamplate/processor)
+
+
+- The Gradle Plugin
+[![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=jamplate&repo=gradle&show_owner=1)](https://github.com/jamplate/gradle)
+
+- The Website
+[![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=jamplate&repo=jamplate.github.io&show_owner=1)](https://github.com/jamplate/jamplate.github.io)
