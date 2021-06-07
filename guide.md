@@ -1,8 +1,8 @@
-# Jamplate [![](https://jitpack.io/v/org.jamplate/processor.svg)](https://jitpack.io/#org.jamplate/processor)
+## Overview
 
-Jamplate is a C-Style pre-processor. Although it is a C-Style, this does not mean it is
-following the C standard. This pre-processor has almost the same expected behaviour as a
-standard C pre-processors with some features added and some missing.
+This is the jamplate syntax documentation. This documentation contains detailed 
+description about the commands, data types, operators and defult variables the 
+jamplate processor recognizes and can process.
 
 ### Memory Control Commands
 
@@ -139,13 +139,18 @@ scopes.
 - `#ENDWHILE` this command closes the `#WHILE` command.
     - If this command was not closing a `#WHILE` , then a `Compile` error will occur.
 
+### Injection
 
-- `#{ <Parameter> }#` this is called 'injection', and it injects the parameter given to it
-  to the console. Different from commands, injections can be placed anywhere (but not
-  clashing inside another injection or inside a command), and it does not suppress the
-  line separators before nor after it.
+To print text from the processor memory to the current opened console. You might use 
+injection commands. The following are the available injection commands:
+
+- `#{ <Parameter> }#` injects the parameter given to it to the console. Different from 
+  commands, injections can be placed anywhere (but not clashing inside another injection
+  or inside a command), and it does not suppress the line separators before nor after it.
 
 ### Debugging
+
+The following are commands to print text to the real console:
 
 - `#MESSAGE <Parameter>` evaluates the parameter given to it and print the evaluated text
   to the `System.out`.
@@ -174,6 +179,9 @@ These variables are managed (allocated) automatically by the processor.
 - `__PROJECT__ : Text` this variable holds the path of the project.
 
 
+- `__OUTPUT__ : Text` this variable holds the path of the default output directory.
+
+
 - `__JAMPLATE__ : Text` this variable contains the version of the jamplate processor.
 
 
@@ -188,11 +196,9 @@ These variables are managed (allocated) automatically by the processor.
 - `__DEFINE__ : Object` an internal variable for the processor to manage replace and
   replacements done by the `#define` command.
 
-### Data Types
+### Parameters
 
-Jamplate has no actual data types, since jamplate stores the data in plain text, but some
-operations treat the data given to it differently depending on the text and the operation
-itself.
+This section describes the parameters in the used command notation:
 
 - `Parameter` applies to any text. In commands, means that the command will evaluate the
   parameter logically.
@@ -200,6 +206,14 @@ itself.
 
 - `Address` applies to any text, In commands, means that the command will take it AS-IS.
   Also, in commands, only whitespace-free addresses will be taken.
+
+### Data Types
+
+Jamplate has no actual data types, since jamplate stores the data in plain text, but some
+operations treat the data given to it differently depending on the text and the operation
+itself.
+
+- `Text` applies to any text.
 
 
 - `Number` applies to numeric text.
@@ -212,35 +226,43 @@ itself.
 - `Array` applies to valid JSON array text. When passed as an object, the resultant object
   will be each item mapped to its index.
 
-### Syntax
 
-- To reference a variable, write the variable name.
+- `NULL` the null value. Evaluates to an empty string.
+
+### Logical Context
+
+The following syntax is to how to create/access values on a logical context (as `<Parameter>`):
+
+- `Reference : Text` defined by writing the variable name.
     - Example `MyVariable`.
+    - Note: If the variable is not declared, the variable will evaluate to its name.
 
 
-- To reference a property of a variable, write the variable name followed by two square
+- `Property Reference : Text` defined by writing the variable name followed by two square
   brackets (`[]`) with the name of the property inside the two brackets.
     - Example `MyVariable['MyProperty']`
+    - Note: if a property of the variable does not exist, the property will evaluate to an empty
+      string.
 
 
-- A `Number` is defined by writing its value.
-    - Example `12`
+- `Number : Number` defined by writing its value.
+    - Examples `3887`, `0b111100101111`, `0xf2f`
 
 
-- A `String` is defined by encapsulating a text inside two double-quotes (`""`).
+- `String : Text` defined by encapsulating a text inside two double-quotes (`""`).
     - Example `"My String"`
 
 
-- An escaped `String` is defined by encapsulating a text inside two quotes (`''`).
+- `Escaped String : Text` defined by encapsulating a text inside two quotes (`''`).
     - Example `'My Escaped String'`
 
 
-- An `Array` is defined with two square brackets (`[]`) with its items between the two
+- `Array : Array` defined with two square brackets (`[]`) with its items between the two
   brackets and separated by a comma (`,`).
     - Example `[A, B, C]`.
 
 
-- An `Object` is defined with two curly braces (`{}`) with its mappings between the two
+- `Object : Object` defined with two curly braces (`{}`) with its mappings between the two
   braces and separated by a comma (`,`). Also, with the `:` separating the key and value
   of each mapping.
     - Example `{A: X, B: Y, C: Z}`.
@@ -248,7 +270,7 @@ itself.
 ### Operators
 
 Just like any basic programming language, jamplate support value operators. This section
-contains the supported operators.
+contains the supported operators:
 
 - `!` (`NOT`) this operator negates the value after it.
     - If this operator has a value before it, then a `Compile` error will occur.
@@ -337,7 +359,6 @@ contains the supported operators.
 
 - `||` (`logical or`) this operator will evaluate to `true` if the value before it, or the
   value after it either evaluated to true.
-
 
 ### Licence
 
