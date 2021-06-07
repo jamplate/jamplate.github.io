@@ -15,3 +15,6 @@ social-network-links:
   email: "jamplate@cufy.org"
 
 rss-description: Copyright 2021 Cufy
+
+github:
+  is_project_page: false
