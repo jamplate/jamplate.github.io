@@ -1,0 +1,42 @@
+a {
+    color: slateblue;
+}
+
+h1, h2, h3 {
+    font-family: "UD Digi Kyokasho NP-R", serif;
+    margin: 20px 10px 20px 10px;
+}
+
+p {
+    margin: 0 30px 0 30px;
+    font-family: "UD Digi Kyokasho NP-B", serif;
+}
+
+code {
+    font-family: "UD Digi Kyokasho NP-R", serif;
+    padding: 2px;
+    background: lightgray;
+    border-radius: 5pt;
+}
+
+br {
+    padding: 20px;
+}
+
+ul {
+    list-style: outside;
+}
+
+pre {
+    margin: 30px 50px 30px 50px;
+    /*background: radial-gradient(rgb(80, 27, 127), rgb(90, 27, 127), rgb(95, 27, 127), rgb(90, 27, 127), rgb(80, 27, 127), rgb(90, 27, 127));*/
+    border-radius: 5pt;
+    box-shadow: 0 0 5px 1px gray;
+    padding: 20px;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+pre.prettyprint {
+    padding: 20px;
+}
