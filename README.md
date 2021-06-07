@@ -1,2 +1,2 @@
-# jamplate.github.org
+# jamplate.github.io
 The jamplate website
