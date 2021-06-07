@@ -13,6 +13,3 @@ gh_edit_link: false
 
 github:
   is_project_page: false
-  repository_url: https://github.com/jamplate/jamplate.github.io
-  owner_url: https://github.com/jamplate
-  owner_name: Jamplate
