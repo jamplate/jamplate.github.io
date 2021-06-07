@@ -338,31 +338,6 @@ contains the supported operators.
 - `||` (`logical or`) this operator will evaluate to `true` if the value before it, or the
   value after it either evaluated to true.
 
-### Distribution
-
-This repository is the core processor and contain no application. You might use the
-[Jamplate Gradle Plugin](https://github.com/jamplate/gradle) instead. If you want to use
-the processor directly or just extend it, you might download the repository or
-use `jitpack.io`.
-
-```gradle
-repositories {
-	maven { url 'https://jitpack.io' }
-}
-
-dependencies {
-	//replace `Tag` with the targeted version.
-	implementation 'org.jamplate:processor:Tag'
-}
-```
-
-### Project Info
-
-- GitHub Repository:
-  [https://github.com/jamplate/processor](https://github.com/jamplate/processor)
-- Website: [https://jamplate.org](https://jamplate.org)
-- Author: [LSafer](https://lsafer.net)
-- Licences: [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
 ### Licence
 
