@@ -33,10 +33,64 @@ pre {
     border-radius: 5pt;
     box-shadow: 0 0 5px 1px gray;
     padding: 20px;
-    padding: 20px;
     color: whitesmoke;
 }
 
 pre.prettyprint {
     padding: 20px;
+}
+
+/*Mobile*/
+@media (max-width: 720px) {
+    .desktop {
+        display: none;
+    }
+
+    .p-5 {
+        padding: 20px !important;
+    }
+
+    p {
+        margin: 0;
+        font-family: "UD Digi Kyokasho NP-B", serif;
+    }
+
+    h1, h2, h3 {
+        font-family: "UD Digi Kyokasho NP-R", serif;
+        margin: 10px 5px 10px 5px;
+    }
+
+    p {
+        margin: 0 15px 0 15px;
+        font-family: "UD Digi Kyokasho NP-B", serif;
+    }
+
+    code {
+        font-family: "UD Digi Kyokasho NP-R", serif;
+        padding: 1px;
+        background: lightgray;
+        border-radius: 5pt;
+    }
+
+    br {
+        padding: 10px;
+    }
+
+    ul {
+        list-style: outside;
+    }
+
+    pre {
+        margin: 15px 25px 15px 25px;
+        /*background: radial-gradient(rgb(80, 27, 127), rgb(90, 27, 127), rgb(95, 27, 127), rgb(90, 27, 127), rgb(80, 27, 127), rgb(90, 27, 127));*/
+        border-radius: 5pt;
+        box-shadow: 0 0 5px 1px gray;
+        padding: 10px;
+        color: whitesmoke;
+        font-size: 5pt;
+    }
+
+    pre.prettyprint {
+        padding: 5px;
+    }
 }
