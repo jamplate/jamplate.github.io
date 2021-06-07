@@ -2,19 +2,11 @@ theme: jekyll-theme-slate
 title: Jamplate
 description: C-Style moderen pre-processor
 
-navbar-link:
-  Cufy: "https://cufy.org"
-  Processor: "processor"
-  Gradle: "gradle"
-  Manual: "manual"
-  Author: "https://lsafer.net"
+author: LSafer
+organization-name: Cufy
+organization-link: cufy.org
 
-avatar: "jamplate.png"
+footer_content: Copyrights 2020-2021 Cufy
 
-social-network-links:
-  email: "jamplate@cufy.org"
+gh_edit_link: false
 
-rss-description: Copyright 2021 Cufy
-
-github:
-  is_project_page: false
