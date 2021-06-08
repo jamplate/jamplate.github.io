@@ -1,19 +1,20 @@
 a {
     color: slateblue;
+    text-decoration: none;
 }
 
 h1, h2, h3 {
-    font-family: "UD Digi Kyokasho NP-R", serif;
+    font-family: "UD Digi Kyokasho NP-R";
     margin: 20px 10px 20px 10px;
 }
 
 p {
     margin: 0 30px 0 30px;
-    font-family: "UD Digi Kyokasho NP-B", serif;
+    font-family: "UD Digi Kyokasho NP-B";
 }
 
 code {
-    font-family: "UD Digi Kyokasho NP-R", serif;
+    font-family: "UD Digi Kyokasho NP-R";
     padding: 2px;
     background: lightgray;
     border-radius: 5pt;
@@ -42,6 +43,10 @@ pre.prettyprint {
 
 /*Mobile*/
 @media (max-width: 720px) {
+    footer {
+        font-size: 8pt;
+    }
+
     .desktop {
         display: none;
     }
@@ -52,21 +57,21 @@ pre.prettyprint {
 
     p {
         margin: 0;
-        font-family: "UD Digi Kyokasho NP-B", serif;
+        font-family: "UD Digi Kyokasho NP-B";
     }
 
     h1, h2, h3 {
-        font-family: "UD Digi Kyokasho NP-R", serif;
+        font-family: "UD Digi Kyokasho NP-R";
         margin: 10px 5px 10px 5px;
     }
 
     p {
         margin: 0 15px 0 15px;
-        font-family: "UD Digi Kyokasho NP-B", serif;
+        font-family: "UD Digi Kyokasho NP-B";
     }
 
     code {
-        font-family: "UD Digi Kyokasho NP-R", serif;
+        font-family: "UD Digi Kyokasho NP-R";
         padding: 1px;
         background: lightgray;
         border-radius: 5pt;

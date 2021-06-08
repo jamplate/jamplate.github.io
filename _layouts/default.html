@@ -10,7 +10,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport"
-			  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+			  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
 		>
 
 		<!-- Bootstrap -->
@@ -44,9 +44,9 @@
 			<!-- Title -->
 			<div class="container-fluid" style="display: flex; justify-content: center; transform: translateY(-50px); ">
 				<h1 style="font-size: 50pt; color: rgb(88,0,42); font-family: 'SimSun',serif">
-					<b class="desktop">- _ - _ - _ - _</b>
+					<!-- <b class="desktop">- _ - _ - _ - _</b> -->
 					Jamplate
-					<b class="desktop">_ - _ - _ - _ -</b>
+					<!-- <b class="desktop">_ - _ - _ - _ -</b> -->
 				</h1>
 			</div>
 
@@ -66,6 +66,9 @@
 		<div class="container-xxl">
 			<div class="card p-5" style="box-shadow: 0 0 5px 1px gray; border-color: #58002a">
 				<section class="card-body p-5">
+					<h1 style="display: flex; justify-content: center">{{ page.section
+																	   }}</h1>
+					<br>
 					{{ content }}
 				</section>
 			</div>
@@ -83,12 +86,13 @@
 			<!--			</div>-->
 
 			<!-- FOOTER  -->
-			<div class="p-5" style="display: flex; justify-content: center; font-family: 'UD Digi Kyokasho NP-R',serif;">
+			<div class="p-5" style="display: flex; justify-content: center; font-family: 'UD Digi Kyokasho NP-R'; text-align: center">
 				<footer>
-					<b>Copyright 2020
-						<a href="{{ site.github.owner_url }}">
-							{{ site.github.owner_name }}
-						</a>.
+					<b>Copyright 2020-2021
+						<a href="{{ site.github.owner_url }}">{{
+															  site.github.owner_name
+															  }}</a>
+						<br>
 					   Licensed under the
 						<a href="http://www.apache.org/licenses/LICENSE-2.0">
 							Apache License, Version 2.0

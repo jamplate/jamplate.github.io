@@ -1,12 +1,15 @@
 ---
 layout: default
 
+permalink: /
+
+section: Home
+
 links:
-    Gradle: https://github.com/jamplate/gradle
-    Source: https://github.com/jamplate/processor
-    Guide: guide
     GitHub: https://github.com/jamplate
-    Author: https://github.com/LSafer
+    Processor: /processor
+    Guide: /guide
+    Gradle: /gradle
 
 repositories:
   - processor:
@@ -20,11 +23,11 @@ repositories:
     name: jamplate.github.io
 ---
 
-## Overview
 Jamplate is a C-Style pre-processor. Although it is a C-Style, this does not mean it is
 following the C standard. This pre-processor has almost the same expected behaviour as a
 standard C pre-processors with some features added and some missing.
 
+<hr>
 <br>
 
 ## Examples

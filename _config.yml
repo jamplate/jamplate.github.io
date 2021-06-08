@@ -1,4 +1,3 @@
-
 title: Jamplate
 email: jamplate@cufy.org
 description: >- # this means to ignore newlines until "baseurl:"
@@ -20,9 +19,13 @@ defaults:
       title: 'Jamplate'
 
 github:
-    owner_name: Cufy
-    owner_url: https://cufy.org
+  owner_name: Cufy
+  owner_url: https://cufy.org
 
 emails:
   cmail: jamplate@cufy.org
   gmail: cufyorg@gmail.com
+
+include:
+  - pages
+  - javadoc

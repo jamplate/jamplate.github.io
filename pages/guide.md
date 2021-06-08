@@ -1,19 +1,17 @@
 ---
 layout: default
+permalink: /guide
+section: Guide
 links:
-    Gradle: https://github.com/jamplate/gradle
-    Source: https://github.com/jamplate/processor
-    Home: index
-    GitHub: https://github.com/jamplate
-    Author: https://github.com/LSafer
+    GitHub: https://github.com/jamplate 
+    Home: /
 ---
-
-## Overview
 
 This is the jamplate syntax documentation. This documentation contains detailed 
 description about the commands, data types, operators and defult variables the 
 jamplate processor recognizes and can process.
 
+<hr>
 <br>
 
 ### Memory Control Commands
