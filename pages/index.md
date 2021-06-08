@@ -34,16 +34,16 @@ standard C pre-processors with some features added and some missing.
 
 The following is an example file written in `jamplate` that generates 4 different files:
 
-<pre class="prettyprint">
-	#for output ['firstfile', 'secondfile', 'thirdfile', 'forthfile']
-	#console __OUTPUT__ '/' output '.txt'
+<pre class="prettyprint language-jamplate">
+	#for $output ['firstfile', 'secondfile', 'thirdfile', 'forthfile']
+	#console __OUTPUT__ '/' $output '.txt'
 	#include __PROJECT__ '/myheader.jh'
 
-	#message 'generating "' output '.txt" ...' "\n"
+	#message 'generating "' $output '.txt" ...' "\n"
 
-	#if output == 'firstfile'
+	#if $output == 'firstfile'
 	#message 'its the first file' "\n"
-	#elif output == 'secondfile'
+	#elif $output == 'secondfile'
 	#message 'its the second file' "\n"
 	#else
 	#message 'its not the first nor the second file' "\n"
@@ -53,11 +53,10 @@ The following is an example file written in `jamplate` that generates 4 differen
 	#error 'You are not using the jamplate processor!' "\n"
 	#endif
 
-	#declare line __LINE__ + 1
-	This file was auto generated from the file #{__FILE__}# 
-	on #{__DATE__}# at #{__TIME__}# using "Jamplate 
-	Processor #{__JAMPLATE__}#" and this paragraph starts 
-	at line #{line}#.
+	#declare $line __LINE__ + 1
+	This file was auto generated from the file #{__FILE__}# on #{__DATE__}#
+	at #{__TIME__}# using "Jamplate Processor #{__JAMPLATE__}#" and this 
+	paragraph starts at line #{$line}#.
 	#endfor
 </pre>
 

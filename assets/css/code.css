@@ -10,62 +10,62 @@ pre .nocode {
 }
 
 pre .str {
-    color: #ffa0a0
+    /* PR_STRING */
+    color: #b5ffa0
 }
 
-/* string  - pink */
 pre .kwd {
-    color: #f0e68c;
+    /* PR_KEYWORD */
+    color: #eeb319;
     font-weight: bold
 }
 
 pre .com {
+    /* PR_COMMENT */
     color: #87ceeb
 }
 
-/* comment - skyblue */
 pre .typ {
+    /* PR_TYPE */
     color: #98fb98
 }
 
-/* type    - lightgreen */
 pre .lit {
+    /* PR_LITERAL */
     color: #cd5c5c
 }
 
-/* literal - darkred */
 pre .pun {
-    color: #fff
+    /* PR_PUNCTUATION */
+    color: #bdc4c7
 }
 
-/* punctuation */
 pre .pln {
+    /* PR_PLAIN */
     color: #fff
 }
 
-/* plaintext */
 pre .tag {
+    /* PR_TAG */
     color: #f0e68c;
     font-weight: bold
 }
 
-/* html/xml tag    - lightyellow */
 pre .atn {
-    color: #bdb76b;
+    /* PR_ATTRIBUTE_NAME */
+    color: #eab8ca;
     font-weight: bold
 }
 
-/* attribute name  - khaki */
 pre .atv {
+    /* PR_ATTRIBUTE_VALUE */
     color: #ffa0a0
 }
 
-/* attribute value - pink */
 pre .dec {
+    /* decimal         - lightgreen */
     color: #98fb98
 }
-
-/* decimal         - lightgreen */
 
 /* Specify class=linenums on a pre to get line numbering */
 ol.linenums {
