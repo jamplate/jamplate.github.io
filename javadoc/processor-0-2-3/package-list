@@ -1,0 +1,13 @@
+org.jamplate.diagnostic
+org.jamplate.impl
+org.jamplate.impl.analyzer
+org.jamplate.impl.compiler
+org.jamplate.impl.diagnostic
+org.jamplate.impl.initializer
+org.jamplate.impl.instruction
+org.jamplate.impl.model
+org.jamplate.impl.parser
+org.jamplate.impl.processor
+org.jamplate.impl.util
+org.jamplate.model
+org.jamplate.model.function
