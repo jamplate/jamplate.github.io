@@ -7,9 +7,9 @@ section: Home
 
 links:
     GitHub: https://github.com/jamplate
-    Processor: /processor
-    Guide: /guide
-    Gradle: /gradle
+    Processor: /processor.html
+    Guide: /guide.html
+    Gradle: /gradle.html
 
 repositories:
   - processor:
