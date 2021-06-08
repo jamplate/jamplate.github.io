@@ -15,12 +15,12 @@ defaults:
   - scope:
       path: ""
     values:
-      favicon: '/assets/logo/cufy.ico'
+      favicon: '/assets/ico/jamplate.ico'
       title: 'Jamplate'
 
 github:
   owner_name: Cufy
-  owner_url: https://cufy.org
+  owner_url: https://github.com/cufyorg
 
 emails:
   cmail: jamplate@cufy.org
