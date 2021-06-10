@@ -3,7 +3,6 @@ layout: default
 permalink: /guide
 section: Guide
 links:
-    GitHub: https://github.com/jamplate 
     Home: /
 ---
 
