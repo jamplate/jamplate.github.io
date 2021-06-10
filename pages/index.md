@@ -9,15 +9,19 @@ links:
     GitHub: https://github.com/jamplate
     Processor: /processor.html
     Guide: /guide.html
+    Executable: /executable.html
     Gradle: /gradle.html
 
 repositories:
-  - processor:
+  - Processor:
     owner: jamplate
     name: processor
-  - gradle:
+  - Gradle:
     owner: jamplate
     name: gradle
+  - Executable:
+    owner: jamplate
+    name: executable
   - Webpage:
     owner: jamplate
     name: jamplate.github.io
