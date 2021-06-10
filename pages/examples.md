@@ -8,7 +8,10 @@ links:
     Guide: /guide.html
 ---
 
-This page contains example jamplate files and the output of executing them.
+This page contains example jamplate files and the output of executing them. All the 
+examples below are available at the 
+[examples repository](https://github.com/jamplate/examples) and has been tested using the
+[Jamplate Executable](executable.html).
 
 <hr>
 <br>
@@ -123,7 +126,7 @@ The program file `main.jamplate`:
 <p class="alert alert-info" role="alert">
   NOTE: 
   <br>
-  an escaped string will not replace escaped quote!
+  An escaped string will not replace escaped quote!
   <br>
   So, the string <code>'\''</code> will evaluate to <code>\'</code>
 </p>
@@ -299,3 +302,19 @@ Execution of `main.jamplate`:
 </pre>
 
 <br>
+<hr>
+
+<p class="alert alert-info" role="alert">
+  NOTE: 
+  <br>
+  Input is currently passed as an execution argument.
+  <br>
+  Feature release will add a real input method.
+</p>
+<p class="alert alert-info" role="alert">
+  NOTE: 
+  <br>
+  In the examples, All the variables have the prefix '$'. But, this prefix is not 
+  mandatory. This prefix was written just to make the syntax highlighter able to 
+  identify variable names much easier.
+</p>
