@@ -3,6 +3,7 @@ layout: default
 permalink: /examples
 section: Examples
 links:
+    GitHub: https://github.com/jamplate/examples
     Home: /
     Guide: /guide.html
 ---
