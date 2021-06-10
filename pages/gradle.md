@@ -7,6 +7,7 @@ section: Jamplate Gradle Plugin
 
 links:
     GitHub: https://github.com/jamplate/gradle
+    Releases: https://github.com/jamplate/gradle/releases
     Home: /
     Jitpack: https://jitpack.io/#org.jamplate/gradle
 ---

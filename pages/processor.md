@@ -7,6 +7,7 @@ section: Jamplate Processor
 
 links:
     GitHub: https://github.com/jamplate/processor
+    Releases: https://github.com/jamplate/processor/releases
     Javadoc: /javadoc/processor-0-2-3 
     Home: /
     Jitpack: https://jitpack.io/#org.jamplate/processor
