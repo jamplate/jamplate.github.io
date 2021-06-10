@@ -104,6 +104,7 @@ pre.prettyprint {
 
     pre:active, pre:hover {
         transform: scale(1.5);
+        margin-bottom: 50px;
     }
 
     pre.prettyprint {
