@@ -3,6 +3,7 @@ layout: default
 permalink: /guide
 section: Guide
 links:
+    YouTube: https://www.youtube.com/playlist?list=PL4GvMdlkZJ6ZIsVM2qbQhCE9e8SLl8yaR
     Home: /
     Examples: /examples.html
 ---
