@@ -4,6 +4,7 @@ permalink: /guide
 section: Guide
 links:
     Home: /
+    Examples: /examples.html
 ---
 
 This is the jamplate syntax documentation. This documentation contains detailed 

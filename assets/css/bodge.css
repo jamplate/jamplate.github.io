@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Ubuntu:wght@500&display=swap');
+
 a {
     color: slateblue;
     text-decoration: none;
@@ -14,7 +16,7 @@ p {
 }
 
 code {
-    font-family: "UD Digi Kyokasho NP-R";
+    font-family: 'Ubuntu', sans-serif;
     padding: 2px;
     background: lightgray;
     border-radius: 5pt;
@@ -39,6 +41,11 @@ pre {
 
 pre.prettyprint {
     padding: 20px;
+}
+
+.alert {
+    margin: 30px 150px 30px 100px;
+    font-size: 10pt;
 }
 
 /*Mobile*/
@@ -97,5 +104,10 @@ pre.prettyprint {
 
     pre.prettyprint {
         padding: 5px;
+    }
+
+    .alert {
+        margin: 15px 25px 15px 25px;
+        font-size: 8pt;
     }
 }
