@@ -1,0 +1,104 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path fill="#69a401" id="XMLID_350_" d="m66.449997,10.369c-3.206997,4.742 -3.601997,10.283999 -1.626999,15.106999c5.721001,-0.715 11.043999,-3.626999 14.250999,-8.368999c3.207001,-4.742001 3.602005,-10.284 1.626999,-15.107c-5.720993,0.715 -11.043999,3.627 -14.250999,8.369z" class="st0"/>
+  <path fill="#efe691" id="svg_1" d="m65.147003,36.771999c-0.013,0 -0.025002,0 -0.038002,0c-1.104004,-0.021 -1.983002,-0.932999 -1.963001,-2.036999l0.106998,-5.778c0,-4.295 -2.276997,-8.301001 -6.092999,-10.679001c-0.938,-0.584 -1.223999,-1.816999 -0.639999,-2.755c0.584,-0.938 1.818001,-1.224999 2.755001,-0.639999c4.994995,3.113 7.977997,8.388999 7.977997,14.11l-0.106995,5.814999c-0.020004,1.093002 -0.912003,1.964001 -1.999001,1.964001z" class="st1"/>
+  <ellipse fill="#a60684" ry="6.157" rx="6.458" id="XMLID_1473_" cy="33.576" cx="59.22" class="st2"/>
+  <ellipse fill="#c60b9e" ry="6.157" rx="6.458" id="XMLID_1474_" cy="33.576" cx="71.511" class="st3"/>
+  <ellipse fill="#ff0dcb" ry="6.157" rx="6.458" id="XMLID_1482_" cy="36.581" cx="49.55" class="st4"/>
+  <ellipse fill="#c60b9e" ry="6.157" rx="6.458" id="XMLID_1475_" cy="43.713" cx="55.866" class="st3"/>
+  <ellipse fill="#ff0dcb" ry="6.157" rx="6.458" id="XMLID_1492_" cy="40.636" cx="65.678" class="st4"/>
+  <ellipse fill="#a60684" ry="6.157" rx="6.458" id="XMLID_1483_" cy="36.581" cx="79.936" class="st2"/>
+  <ellipse fill="#a60684" ry="6.157" rx="6.458" id="XMLID_2063_" cy="46.132" cx="45.114" class="st2"/>
+  <ellipse fill="#ff0dcb" ry="6.157" rx="6.458" id="XMLID_1485_" cy="51.575001" cx="53.562" class="st4"/>
+  <ellipse fill="#a60684" ry="7.164" rx="7.514" id="XMLID_2074_" cy="51.7" cx="63.604" class="st2"/>
+  <ellipse fill="#c60b9e" ry="6.157" rx="6.458" id="XMLID_2070_" cy="43.713" cx="73.381" class="st3"/>
+  <ellipse fill="#c60b9e" ry="6.157" rx="6.458" id="XMLID_2079_" cy="43.713" cx="83.869" class="st3"/>
+  <ellipse fill="#c60b9e" ry="6.157" rx="6.458" id="XMLID_2090_" cy="55.121" cx="42.786" class="st3"/>
+  <ellipse fill="#a60684" ry="6.157" rx="6.458" id="XMLID_2086_" cy="62.023" cx="49.55" class="st2"/>
+  <ellipse fill="#c60b9e" ry="7.164" rx="7.514" id="XMLID_2094_" cy="62.023" cx="59.839" class="st3"/>
+  <ellipse fill="#c60b9e" ry="6.157" rx="6.458" id="XMLID_2091_" cy="62.023" cx="72.13" class="st3"/>
+  <ellipse fill="#ff0dcb" ry="6.157" rx="6.458" id="XMLID_1499_" cy="51.7" cx="75.338" class="st4"/>
+  <ellipse fill="#a60684" ry="6.157" rx="6.458" id="XMLID_1182_" cy="51.54" cx="85.163" class="st2"/>
+  <ellipse fill="#ff0dcb" ry="6.157" rx="6.458" id="XMLID_1513_" cy="63.485" cx="41.701" class="st4"/>
+  <ellipse fill="#c60b9e" ry="6.157" rx="6.458" id="XMLID_1500_" cy="59.048" cx="66.297" class="st3"/>
+  <ellipse fill="#ff0dcb" ry="6.157" rx="6.458" id="XMLID_1150_" cy="68.348" cx="57.885" class="st4"/>
+  <ellipse fill="#a60684" ry="6.157" rx="6.458" id="XMLID_1134_" cy="69.732" cx="66.967" class="st2"/>
+  <ellipse fill="#a60684" ry="6.157" rx="6.458" id="XMLID_1189_" cy="60.358" cx="78.923" class="st2"/>
+  <ellipse fill="#c60b9e" ry="6.157" rx="6.458" id="XMLID_1151_" cy="59.048" cx="87.378" class="st3"/>
+  <ellipse fill="#c60b9e" ry="6.157" rx="6.458" id="XMLID_1545_" cy="69.732" cx="40.458" class="st3"/>
+  <ellipse fill="#a60684" ry="6.157" rx="6.458" id="XMLID_1521_" cy="71.855" cx="50.07" class="st2"/>
+  <ellipse fill="#ff0dcb" ry="6.157" rx="6.458" id="XMLID_1637_" cy="77.252" cx="59.019" class="st4"/>
+  <ellipse fill="#c60b9e" ry="6.157" rx="6.458" id="XMLID_1547_" cy="78.012" cx="68.88" class="st3"/>
+  <ellipse fill="#ff0dcb" ry="6.157" rx="6.458" id="XMLID_1642_" cy="68.81" cx="76.514" class="st4"/>
+  <ellipse fill="#a60684" ry="6.157" rx="6.458" id="XMLID_1638_" cy="67.271" cx="87.378" class="st2"/>
+  <ellipse fill="#ff0dcb" ry="6.157" rx="6.458" id="XMLID_1646_" cy="78.012" cx="41.701" class="st4"/>
+  <ellipse fill="#c60b9e" ry="6.157" rx="6.458" id="XMLID_1643_" cy="80.776" cx="51.829" class="st3"/>
+  <ellipse fill="#a60684" ry="6.157" rx="6.458" id="XMLID_1651_" cy="85.715" cx="60.51" class="st2"/>
+  <ellipse fill="#ff0dcb" ry="6.157" rx="6.458" id="XMLID_1647_" cy="85.715" cx="70.062" class="st4"/>
+  <ellipse fill="#a60684" ry="6.157" rx="6.458" id="XMLID_1655_" cy="78.518" cx="77.969" class="st2"/>
+  <ellipse fill="#ff0dcb" ry="6.157" rx="6.458" id="XMLID_1652_" cy="74.966" cx="87.378" class="st3"/>
+  <ellipse fill="#a60684" ry="6.157" rx="6.458" id="XMLID_1666_" cy="86.933" cx="43.092" class="st2"/>
+  <ellipse fill="#ff0dcb" ry="6.157" rx="6.458" id="XMLID_1663_" cy="90.147" cx="52.763" class="st4"/>
+  <ellipse fill="#c60b9e" ry="6.157" rx="6.458" id="XMLID_1670_" cy="93.763" cx="62.324" class="st3"/>
+  <ellipse fill="#a60684" ry="6.157" rx="6.458" id="XMLID_1667_" cy="94.968" cx="73.636" class="st2"/>
+  <ellipse fill="#a60684" ry="6.157" rx="6.458" id="XMLID_1671_" cy="84.168" cx="87.542" class="st2"/>
+  <ellipse fill="#c60b9e" ry="6.157" rx="6.458" id="XMLID_1677_" cy="96.597" cx="45.803" class="st3"/>
+  <ellipse fill="#a60684" ry="6.157" rx="6.458" id="XMLID_1674_" cy="99.92" cx="56.528" class="st2"/>
+  <ellipse fill="#ff0dcb" ry="6.157" rx="6.458" id="XMLID_1681_" cy="101.124" cx="67.178" class="st4"/>
+  <ellipse fill="#c60b9e" ry="6.157" rx="6.458" id="XMLID_1678_" cy="86.523" cx="80.094" class="st3"/>
+  <ellipse fill="#c60b9e" ry="6.157" rx="6.458" id="XMLID_1685_" cy="107.798" cx="58.287" class="st3"/>
+  <ellipse fill="#c60b9e" ry="6.157" rx="6.458" id="XMLID_1682_" cy="105.626" cx="73.093" class="st4"/>
+  <ellipse fill="#a60684" ry="6.157" rx="6.458" id="XMLID_1690_" cy="111.782" cx="65.882" class="st2"/>
+  <ellipse fill="#ff0dcb" ry="6.157" rx="6.458" id="XMLID_1686_" cy="93.501" cx="87.378" class="st4"/>
+  <ellipse fill="#c60b9e" ry="6.157" rx="6.458" id="XMLID_1694_" cy="97.933" cx="78.923" class="st3"/>
+  <ellipse fill="#a60684" ry="6.157" rx="6.458" id="XMLID_1691_" cy="102.754" cx="85.163" class="st2"/>
+  <ellipse fill="#a60684" ry="6.157" rx="6.458" id="XMLID_365_" cy="105.8" cx="49.244" class="st2"/>
+  <ellipse fill="#c60b9e" ry="6.157" rx="6.458" id="XMLID_807_" cy="113.687" cx="52.915" class="st3"/>
+  <ellipse fill="#ff0dcb" ry="6.157" rx="6.458" id="XMLID_1695_" cy="119.843" cx="60.721" class="st4"/>
+  <ellipse fill="#c60b9e" ry="6.157" rx="6.458" id="XMLID_1696_" cy="119.843" cx="70.801" class="st3"/>
+  <ellipse fill="#ff0dcb" ry="6.157" rx="6.458" id="XMLID_1640_" cy="112.233" cx="77.969" class="st4"/>
+  <ellipse fill="#a60684" ry="6.157" rx="6.458" id="XMLID_48_" cy="118.389" cx="80.094" class="st2"/>
+  <ellipse fill="#c60b9e" ry="6.157" rx="6.458" id="XMLID_49_" cy="107.798" cx="85.672" class="st3"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_127_" cy="35.079" cx="47.927" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_131_" cy="31.927" cx="59.373" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_158_" cy="43.713" cx="56.008" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_271_" cy="31.927" cx="71.118" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_299_" cy="44.537" cx="43.612" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_414_" cy="54.859" cx="41.701" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_555_" cy="52.288" cx="52.915" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_593_" cy="39.733" cx="65.254" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1411_" cy="57.744" cx="66.635" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1725_" cy="50.786" cx="61.736" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1726_" cy="59.247" cx="58.287" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1727_" cy="60.749" cx="41.99" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1728_" cy="68.348" cx="39.345" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1729_" cy="76.325" cx="42.786" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1731_" cy="87.607" cx="43.092" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1733_" cy="80.366" cx="52.261" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1734_" cy="71.095" cx="49.244" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1735_" cy="89.199" cx="51.572" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1736_" cy="66.515" cx="57.63" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1738_" cy="86.104" cx="68.257" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1739_" cy="99.92" cx="68.257" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1740_" cy="52.288" cx="73.636" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1741_" cy="75.889" cx="85.163" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1742_" cy="68.752" cx="76.52" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1743_" cy="42.139" cx="75.338" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1744_" cy="48.964" cx="83.54" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1745_" cy="111.228" cx="76.961" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1747_" cy="113.687" cx="52.763" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1749_" cy="119.843" cx="60.51" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1750_" cy="96.303" cx="46.916" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1752_" cy="92.679" cx="87.542" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1756_" cy="74.966" cx="58.887" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1758_" cy="118.341" cx="80.92" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1759_" cy="107.53" cx="84.426" class="st5"/>
+  <ellipse fill="#ffeeee" ry="1.503" rx="1.623" id="XMLID_1760_" cy="96.303" cx="77.969" class="st5"/>
+ </g>
+</svg>

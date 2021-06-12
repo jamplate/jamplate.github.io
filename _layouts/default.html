@@ -39,11 +39,11 @@
 			<!-- Logo -->
 			<div style="display: flex; justify-content: center">
 				<!--suppress CheckImageSize -->
-				<img src="/assets/img/jamplate.png" alt="" width="300px" height="300px">
+				<img src="{{ page.logo }}" alt="" width="200px" height="200px">
 			</div>
 
 			<!-- Title -->
-			<div class="container-fluid" style="display: flex; justify-content: center; transform: translateY(-50px); ">
+			<div class="container-fluid" style="display: flex; justify-content: center">
 				<h1 style="font-size: 50pt; color: rgb(88,0,42); font-family: 'SimSun',serif">
 					<!-- <b class="desktop">- _ - _ - _ - _</b> -->
 					Jamplate
@@ -52,7 +52,7 @@
 			</div>
 
 			<!-- Navigation -->
-			<ul class="nav justify-content-center" style="transform: translateY(-50px)">
+			<ul class="nav justify-content-center">
 				{% for link in page.links %}
 				<li class="nav-item">
 					<a class="nav-link active" href="{{ link[1] }}" style="color: midnightblue;">

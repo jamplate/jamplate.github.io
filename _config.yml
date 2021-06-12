@@ -16,6 +16,7 @@ defaults:
       path: ""
     values:
       favicon: '/assets/ico/jamplate.ico'
+      logo: 'assets/img/jamplate.svg'
       title: 'Jamplate'
 
 github:

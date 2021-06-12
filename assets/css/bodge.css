@@ -50,6 +50,10 @@ pre.prettyprint {
 
 /*Mobile*/
 @media (max-width: 720px) {
+    .nav-link {
+        padding: 10px;
+    }
+
     footer {
         font-size: 8pt;
     }
